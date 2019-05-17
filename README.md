@@ -15,9 +15,9 @@ You will also need your Google Maps API keys. <a href="https://console.cloud.goo
 
 After including the relevant keys, build the project in Android Studio and run it through a connected device or an AVD. Note: the first build may take a while; <a href="https://github.com/lovdeep7/SelfDrivingApp">here is a barebones version</a> of this project. 
 
-<a href="https://dashboard.pubnub.com/signup?devrel_gh=PubNubRide">
+
 **Sign up for PubNub click here:**
-</a>
+
 <a href="https://dashboard.pubnub.com/signup?devrel_gh=PubNubRide">
     <img alt="Sign up for PubNub" src="https://i.imgur.com/og5DDjf.png" width=260 height=97/>
 </a>
