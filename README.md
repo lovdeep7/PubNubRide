@@ -1,10 +1,7 @@
 # PubNub Ride
 
+[![PubNub Ride Video](https://i.ibb.co/CWQwL8s/Screen-Shot-2019-05-16-at-10-08-36-PM.png)](https://www.youtube.com/watch?v=GI5FL8qt5lI&feature=youtu.be)
 
-![PubNub Ride demo](https://s3.gifyu.com/images/PubNubRide.gif)
-https://s3.gifyu.com/images/PubNubRide.gif
-
-https://media.giphy.com/media/YpeyCmNNAZoH028xpf/giphy.gif
 
 [Click here for full tutorial]()
 
@@ -24,4 +21,3 @@ After including the relevant keys, build the project in Android Studio and run i
 <a href="https://dashboard.pubnub.com/signup?devrel_gh=PubNubRide">
     <img alt="PubNub Signup" src="https://i.imgur.com/og5DDjf.png" width=260 height=97/>
 </a>
-
