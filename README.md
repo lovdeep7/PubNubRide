@@ -1,7 +1,10 @@
 # PubNub Ride
 
 
-<a href="https://youtu.be/GI5FL8qt5lI">![](https://s3.gifyu.com/images/PubNubRide.gif)</a>
+![PubNub Ride demo](https://s3.gifyu.com/images/PubNubRide.gif)
+https://s3.gifyu.com/images/PubNubRide.gif
+
+https://media.giphy.com/media/YpeyCmNNAZoH028xpf/giphy.gif
 
 [Click here for full tutorial]()
 
