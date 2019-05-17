@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pubnub:pubnub-gson:4.12.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pubnub/pubnub-gson/4.12.0/413b6b4519334de090c12763f6691c9513639a79/pubnub-gson-4.12.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pubnub/pubnub-gson/4.12.0/f80239460ee1f9f95d45bd71229cb4b8605e680f/pubnub-gson-4.12.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

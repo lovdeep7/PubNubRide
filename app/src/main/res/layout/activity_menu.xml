@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NavigationView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:id="@+id/navigation_view"
+    android:fitsSystemWindows="true"
+    app:elevation="4dp"
+    android:layout_marginRight="2dp"
+    tools:context="com.pubnub.ride.Menu">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_marginTop="69dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_profile"
+            android:tint="#3277d8"/>
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textColor="#323643"
+            android:textSize="21.7sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="38dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ridehistory"
+            android:tint="#3277d8"/>
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ride History"
+            android:textColor="#323643"
+            android:textSize="21.7sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="38dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/offers"
+            android:tint="#3277d8"/>
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offers"
+            android:textColor="#323643"
+            android:textSize="21.7sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="38dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/bell"
+            android:tint="#3277d8"/>
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:textColor="#323643"
+            android:textSize="21.7sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="38dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/help"
+            android:tint="#3277d8"/>
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help &amp; Support"
+            android:textColor="#323643"
+            android:textSize="21.7sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="38dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/logout"
+            android:tint="#3277d8"/>
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="#323643"
+            android:textSize="21.7sp"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+            <customfonts.MyTextView_Roboto_Regular
+            android:layout_gravity="bottom"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="45.3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="21.1sp"
+            android:textColor="#323643"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.NavigationView>

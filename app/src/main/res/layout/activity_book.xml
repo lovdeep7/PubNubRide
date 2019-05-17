@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pubnub.ride.Book">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/googleMap"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@drawable/gradient_temp"-->
+            <!--&gt;</FrameLayout>-->
+
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="5.8dp"
+            android:layout_marginTop="87.9dp"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginRight="19.2dp"
+            android:layout_width="match_parent"
+            android:layout_height="92.2dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+                                android:id="@+id/i1"
+                                android:layout_marginTop="16.3dp"
+                                android:layout_marginLeft="14.4dp"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:src="@drawable/pin_black"/>
+
+                            <ImageView
+                                android:id="@+id/i2"
+                                android:layout_marginLeft="26dp"
+                                android:layout_width="2dp"
+                                android:layout_height="26.9dp"
+                                android:src="@drawable/rect_dotted"
+                                android:layerType="software"/>
+
+                            <ImageView
+                                android:id="@+id/i3"
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:src="@drawable/navigatiob_blue"
+                                android:layout_marginLeft="19dp"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="15.4dp">
+
+
+                            <customfonts.TextViewSFProDisplayRegular
+                                android:id="@+id/txtmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="725 Folsom St, San Francisco, CA"
+                                android:textSize="13.4sp"
+                                android:layout_marginLeft="14.3dp"
+                                android:textColor="#323643"/>
+
+                            <customfonts.TextViewSFProDisplayRegular
+                                android:id="@+id/txthome"
+                                android:layout_marginTop="30dp"
+                                android:layout_marginLeft="14.3dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Home"
+                                android:textSize="13.4sp"
+                                android:textColor="#323643"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                           <ImageView
+                               android:layout_marginLeft="20dp"
+                               android:layout_marginTop="17.4dp"
+                               android:layout_width="15dp"
+                               android:layout_height="15dp"
+                               android:src="@drawable/x"/>
+
+                            <ImageView
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginTop="36.4dp"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/x"/>
+                        </LinearLayout>
+                    </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <include layout="@layout/toolbar_home"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp">
+
+            <HorizontalScrollView
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/racta"
+                android:layout_height="150.8dp"
+                android:scrollbars="none">
+
+
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="5.8dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="150.8dp">
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="19.4dp">
+
+            <customfonts.MyTextView_SF_Pro_Display_Semibold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEDAN"
+                android:layout_marginTop="11.2dp"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:background="@drawable/rect_black"/>
+                
+                
+                <ImageView
+                    android:id="@+id/car1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/car"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="4dp" />
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="$2.98"
+                    android:textSize="14sp"
+                    android:textColor="#606470"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="109.4dp">
+
+                <customfonts.MyTextView_SF_Pro_Display_Semibold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HATCHBACK"
+                    android:layout_marginTop="11.2dp"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:background="@drawable/rect_black"/>
+
+                <ImageView
+                    android:id="@+id/car2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/car3"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="4dp"
+                    />
+
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:text="$1.98"
+                    android:textSize="14sp"
+                    android:textColor="#606470"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="239.4dp">
+
+                <customfonts.MyTextView_SF_Pro_Display_Semibold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VAN"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="11.2dp"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:background="@drawable/rect_black"/>
+
+
+                <ImageView
+                    android:id="@+id/car3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/car3"
+                    android:layout_marginTop="4dp" />
+
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$4.98"
+                    android:layout_marginTop="8dp"
+                    android:textSize="14sp"
+                    android:textColor="#606470"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="329.4dp">
+
+                <customfonts.MyTextView_SF_Pro_Display_Semibold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SUV"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="11.2dp"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:background="@drawable/rect_black"/>
+
+
+                <ImageView
+                    android:id="@+id/car4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/car3"
+                    android:layout_marginTop="4dp" />
+
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$4.98"
+                    android:layout_marginTop="8dp"
+                    android:textSize="14sp"
+                    android:textColor="#606470"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+            </HorizontalScrollView>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+    <customfonts.Button_SF_Pro_Display_Medium
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="19.3dp"
+        android:layout_marginRight="18.1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_blue"
+        android:text="Confirm Pickup"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="15.4sp"/>
+
+
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

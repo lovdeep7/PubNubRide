@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="27.7dp"
+    tools:context="com.pubnub.ride.Ride_complete_rating">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_rating"/>
+
+        <LinearLayout
+            android:layout_marginTop="51.3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <customfonts.MyTextView_SF_Pro_Display_Medium
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ride Complete"
+                android:textColor="#323643"
+                android:textSize="21.1sp"/>
+
+            <customfonts.MyTextView_SF_Pro_Display_Light
+                android:layout_gravity="center"
+                android:layout_marginTop="9.6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15.4sp"
+                android:textColor="#606470"
+                android:text="Rate your last ride with Steve Rogers!"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_marginTop="38.1dp"
+                android:layout_gravity="center"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/profile" />
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_marginTop="19.3dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steve Rogers"
+                android:textColor="#323643"
+                android:textSize="17.3sp"/>
+
+            <RatingBar
+                android:layout_gravity="center"
+                android:id="@+id/rtbHighScore"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:progressTint="#ffba00"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:isIndicator="false"
+                android:max="100"
+                android:numStars="5"
+                android:minHeight="10dp"
+                android:rating="3"
+                android:stepSize="0.2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="57.7dp"
+                android:background="@drawable/rect"
+                android:layout_marginLeft="28.7dp"
+                android:layout_marginRight="28.9dp"
+                android:padding="12dp">
+
+                <ImageView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mail"/>
+
+                <customfonts.EditText__SF_Pro_Display_Light
+                    android:background="#00000000"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Feedback"
+                    android:textColorHint="#000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="19.2dp"
+                android:layout_marginLeft="28.7dp"
+                android:layout_marginRight="28.9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit Feedback"
+                android:textAllCaps="false"
+                android:background="@drawable/rect_blue"
+                android:textColor="#fbfbfb"
+                android:textSize="15.4sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip feedback"
+        android:textColor="#606470"
+        android:textSize="15.4sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

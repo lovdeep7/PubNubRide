@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PubNub Ride</string>
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+</resources>

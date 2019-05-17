@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="92.2dp"
+        app:cardCornerRadius="5.8dp"
+        android:layout_marginLeft="19.3dp"
+        android:layout_marginTop="18.7dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="12.1dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/i1"
+                    android:layout_marginTop="16.3dp"
+                    android:layout_marginLeft="14.4dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/pin_black"/>
+
+                <ImageView
+                    android:id="@+id/i2"
+                    android:layout_marginLeft="26dp"
+                    android:layout_width="2dp"
+                    android:layout_height="26.9dp"
+                    android:src="@drawable/rect_dotted"
+                    android:layerType="software"/>
+
+
+                <ImageView
+                    android:id="@+id/i3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/navigatiob_blue"
+                    android:layout_marginLeft="22dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15.4dp">
+
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:id="@+id/txtmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phoenix Market City"
+                    android:textSize="13.4sp"
+                    android:layout_marginLeft="14.3dp"
+                    android:textColor="#323643"/>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:id="@+id/txthome"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="14.3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:textSize="13.4sp"
+                    android:textColor="#323643"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:id="@+id/txtdate"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="15.4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01 May 2018"
+                    android:textSize="13.4sp"
+                    android:textColor="#323643"/>
+                <RatingBar
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/rtbHighScore"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:progressTint="#ffba00"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:isIndicator="false"
+                    android:max="100"
+                    android:numStars="5"
+                    android:minHeight="10dp"
+                    android:rating="3"
+                    android:stepSize="0.2" />
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/txtprice"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="5.4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$2.94"
+                    android:textSize="13.4sp"
+                    android:textColor="#323643"/>
+
+
+            </LinearLayout>
+
+</LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
