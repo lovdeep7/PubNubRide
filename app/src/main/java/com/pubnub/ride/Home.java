@@ -246,7 +246,7 @@ public class Home extends AppCompatActivity  implements NavigationView.OnNavigat
         LatLng myLatLng = new LatLng(myLocation.getLatitude(),
                 myLocation.getLongitude());
         Routing routing = new Routing.Builder()
-                .key("YOUR_GOOGLE_API_KEY")
+                .key(Constants.GOOGLE_API_KEY)
                 .travelMode(AbstractRouting.TravelMode.DRIVING)
                 .withListener(this)
                 .alternativeRoutes(true)

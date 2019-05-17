@@ -10,7 +10,7 @@
 
 First, obtain your PubNub keys from signing up below. After creating a PubNub app, you will receive your subscribe and publish keys, which you will need to input in the `Constants.java` class. 
 
-You will also need your Google Maps API keys. <a href="https://console.cloud.google.com/">Create a Google Cloud Platform account</a> in order to use google maps APIs, which will power a large portion of the app. From the API manager, enable the Google Maps Android API, Directions API, and Places API. You can obtain your keys from the credentials tab. Your key will need to go in the `Constants.java` file, as well as the `AndroidManifest.xml` and `Home.java` files. 
+You will also need your Google Maps API keys. <a href="https://console.cloud.google.com/">Create a Google Cloud Platform account</a> in order to use google maps APIs, which will power a large portion of the app. From the API manager, enable the Google Maps Android API, Directions API, and Places API. You can obtain your keys from the credentials tab. Your key will need to go in the `Constants.java` file and the `AndroidManifest.xml` file. 
 
 
 After including the relevant keys, build the project in Android Studio and run it through a connected device or an AVD. Note: the first build may take a while; <a href="https://github.com/lovdeep7/SelfDrivingApp">here is a barebones version</a> of this project. 
