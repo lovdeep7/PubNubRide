@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 
 import java.util.ArrayList;
 
@@ -61,11 +62,9 @@ public class Activity_list extends AppCompatActivity {
         }
         listAdapter = new ListAdapter(Activity_list.this,listModelArrayList);
         recyclerview.setAdapter(listAdapter);
-        if (Build.VERSION.SDK_INT == Build.VERSION_CODES.M) {
+
             checkPermission();
             requestPermissions(INITIAL_PERMS, INITIAL_REQUEST);
-
-        }
 
     }
     private void initPubnub() {
@@ -76,13 +75,14 @@ public class Activity_list extends AppCompatActivity {
         pubnub = new PubNub(pnConfiguration);
     }
     public void checkPermission() {
+        Log.v("location", "inside checkpermission()");
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED ||
                 ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED
         ) {//Can add more as per requirement
 
             ActivityCompat.requestPermissions(this,
-                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION},
-                    123);
+                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                    3857);
         }
     }
 }
